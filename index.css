@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(246, 247, 248);
+}
+
+h1{
+    text-align: center;
+    color: rgb(26, 86, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 350%;
+
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+div{
+    background-color: white;
+    margin: auto;
+    border: outset;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(116, 115, 115, 0.5);
+    border-radius: 10px;
+    width: 400px;
+}
+
+form{
+    text-align: center;
+}
+#email{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    height: 40px;
+    width: 350px;
+    border-style: groove;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#email:focus{
+    border-color: rgb(26, 86, 250);
+    outline: none;
+}
+
+#password{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    height: 40px;
+    width: 350px;
+    border-style: groove;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#password:focus{
+    border-color: rgb(26, 86, 250);
+    outline: none;
+}
+
+#login_button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(26, 86, 250);
+    height: 50px;
+    width: 360px;
+    text-align: center;
+    border-style: groove;
+    border: 2px solid rgb(26, 86, 250);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+a{
+    color: rgb(26, 86, 250);
+}
+
+#create_new_account_btn{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(45, 196, 4);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-style: groove;
+    border: 2px solid rgb(45, 196, 4);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+hr{
+    color: dimgray;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
